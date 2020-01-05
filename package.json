@@ -1,0 +1,29 @@
+{
+  "name": "RPC_create",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src",
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejavierCO/RPC_create.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thejavierCO/RPC_create/issues"
+  },
+  "homepage": "https://github.com/thejavierCO/RPC_create#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.6.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
