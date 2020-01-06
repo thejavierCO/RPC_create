@@ -5,19 +5,11 @@ const api = Router()
 var app = config;
 
 api.get("/:cmd",async function(req,res){
-    switch(req.params.cmd){
-        case "getUser":
-            var user = await app.auth().signInAnonymously().catch(e=>e);
-            console.log(user);
-            res.json([req.params,user]);
-        break;
-        default:
-            res.json([req.params,req.headers]);
-    }  
+    res.json({})
 })
 
 api.get("/",function(req,res){
-    res.json({})
+    res.json({});
 })
 
 module.exports = api

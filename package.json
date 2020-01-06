@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/thejavierCO/RPC_create#readme",
   "dependencies": {
+    "ejs-mate": "^3.0.0",
     "express": "^4.17.1",
     "firebase": "^7.6.1",
     "morgan": "^1.9.1"

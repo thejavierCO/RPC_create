@@ -1,5 +1,4 @@
 const firebase = require('firebase');
-
 module.exports = firebase.initializeApp({
   apiKey: "AIzaSyBM-rx7cIL5PEu3F5QbVeoVKE9t5xZz8AM",
   authDomain: "mytestapp0036.firebaseapp.com",
