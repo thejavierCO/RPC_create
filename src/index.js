@@ -11,6 +11,7 @@ app.set('view engine', 'ejs');
 app.use(express.json());
 app.use(morgan('dev'));
 
+//app.use('/graphql',require('./router/graphql.js'));
 app.use('/api',require('./router/init'));
 app.use('/',require('./router/main'));
 
